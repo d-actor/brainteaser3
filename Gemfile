@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 ruby '2.3.1'
 
-require 'pry'
-require 'colorize'
+gem 'pry'
+gem 'colorize'
+gem 'to_words', '~> 1.1', '>= 1.1.1'
