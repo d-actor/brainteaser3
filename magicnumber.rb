@@ -5,7 +5,7 @@ require 'to_words'
 def menu
   print `clear`
   puts "--4 is the magic number--".yellow
-  puts "Enter any postive number or type quit:".yellow
+  puts "Enter any postive number:".yellow
   @number = STDIN.gets.strip.to_i
   magic
 end
