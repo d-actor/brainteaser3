@@ -14,7 +14,7 @@ def magic
   puts "#{@number} is #{@number.to_words.split("").length}"
   @number = @number.to_words.split("").length
   if @number == 4
-    print "And 4 is the magic number"
+    print "And 4 is the magic number".green
   else
     magic
   end
